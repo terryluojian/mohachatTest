@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * dbms of your choice
+ * Currently supports
+ * - MySQL and PostgreSQL
+ */
+$dbms = "mysql";
+
+/**
+ * Database connection information
+ *
+ */
+$databaseHost 		= "localhost";
+$databaseName 		= "chat";
+$databaseUser 		= "root";
+$databasePassword 	= "";
+
+/**
+ * User table information
+ *
+ * If you plan to use your own login page leave these blank
+ *
+ */
+$usersTable 		= "users";
+$usernameField 		= "UID";
+$passwordField 		= "PW";
+
+// Title
+$title 				= "MOHA Chat";
+
+/**
+ * Links required to redirect users
+ *
+ */
+$registration		= 0; // 0 = internal, 1 = external
+$forgotPasswordLink = "/login/forgot";
+$registerLink 		= "/signup";
+$loginLink			= "login/";
+
+// All messages will be archived if set to true
+$archive 			= true;
+
+$tablePrefix 		= "";
+
+// Passowrd Algorithm to use, even a custom function would do, but PWSecurity cryptPW should be aware
+$pwAlgo 			= "md5";

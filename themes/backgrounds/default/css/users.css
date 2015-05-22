@@ -1,0 +1,150 @@
+/* CSS Document */
+
+.userTable {
+	border: 3px solid #72AAFF;
+	border-top-color: #0066FF;
+	width: 175px;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 25px;
+	right: 7px;
+	background: #FFFFFF;
+}
+.userTable ul {
+	margin: 0 0 0 0;
+	list-style: none;
+}
+
+html>body .userTable ul {
+	margin: 0 0 0 -10px;
+}
+
+.userDet {	
+	padding: 0px 2px 3px 2px;
+	margin: -3px 0 0 0;
+	font-size: 12px;
+	width: 170px;
+	cursor: pointer;	
+	display: block;	
+}
+
+html>body .userDet {
+	margin: 0 0 0 -30px;
+	border-bottom: 1px solid #A5DDFF;
+}
+
+.userDet img {
+	margin: 0px 7px 2px 5px;	
+}
+
+.userDet:hover {
+	background-color: #EAF6FD;
+}
+
+.statusMessage {
+	margin-left: 25px;	
+	font-size: 10px;
+	color:#666666;	
+}
+
+#userOptionPane .statusMessage {
+	margin: 7px 7px 7px 2px;	
+}
+
+#userOptionPane {
+	display: block;
+	border: 1px solid #72AAFF;
+	background: #FFFFFF;
+	width: 200px;
+	z-index: 1000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	padding: 5px 0 5px 5px;
+	visibility: hidden;
+}
+
+.userOptionPaneName {
+	font-size: 13px;
+	font-weight: bold;	
+	background-color: #EAF6FD;
+	margin: -5px 0 -5px -5px;
+	padding: 5px 0 0px 5px;
+	display: block;	
+	height: 0px;	
+}
+
+html>body .userOptionPaneName {
+	height: 22px;
+	padding: 5px 0 5px 5px;
+}
+
+.userOptControls {	
+	top: 0px;
+	margin: 0 5px 5px 2px;	
+	float: right;
+}	
+
+html>body .userOptControls {	
+	float: right;
+}
+
+.userOptControls input {	
+	z-index: 100;	
+}
+
+.custCombo {
+	display: block;
+	margin-left: 25px;	
+}
+
+.custCombo input {
+	width: 120px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	border: none;
+	background: none;
+}
+
+.custCombo input:focus, .custCombo input:active {
+	background: #FFFFFF;
+	border: 1px solid #000000
+}
+
+.custCombo img {	
+	margin: 0 0 0 1px;
+}
+
+#statusList li {
+	padding: 2px 0 0 22px;
+}
+
+html>body #statusList li {
+	margin-left: -32px;	
+}
+
+#statusList {
+	background: #FFFFFF;
+	padding-right: 5px;
+	width: 160px;
+	overflow: hidden;	
+	margin-top: 20px;
+	visibility: hidden;
+	margin-left: -167px;
+}
+
+html>body #statusList {
+	margin-left: -27px;
+	margin-top: 0;
+	width: 125px;
+}
+
+.stActive {
+	background: url(../images/Active.gif) left center no-repeat;
+}
+
+.stAway {
+	background: url(../images/Away.gif) left center no-repeat;
+}
+
+.stInactive {
+	background: url(../images/Inactive.gif) left center no-repeat;
+}

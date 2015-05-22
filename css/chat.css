@@ -1,0 +1,289 @@
+/* CSS Document */
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background:url(../images/background.gif) top repeat-x;	
+}
+
+.chatBoard {
+	font-size: 11px;
+	height: 200px;			
+	width: 250px;
+	padding-left:10px;
+	overflow:auto;
+	background-color: #F7FCFF;
+	border: 1px solid #72AAFF;	
+	cursor:text;	
+	margin: 0 auto;
+	margin-bottom: 5px;	
+}
+
+.chatBoard a {
+	text-decoration:none;
+}
+
+.chatBoard .ico {
+	padding: 0 2px 0 2px;
+}
+
+.imageControl {	
+	width: 250px;
+	margin: 0 auto;
+}
+.imageControl img {
+	padding: 1px 2px;
+	border: 1px #AAAAAA solid;
+}
+
+html>body .imageControl img {	
+	background: #DDDDDD;
+}
+
+html>body .imageControl img:hover {
+	background: #FFFFFF;
+}
+
+.prevChatBoard {
+	opacity: 0.5;
+	display: none;
+}
+
+.toggChatBoard {
+	font-style: italic;
+}
+
+.chatBoard label {
+	font-size: 12px;
+}
+
+img {
+	border: none;
+}
+
+.enter {
+	height: 60px;	
+	width: 26px;
+	position: relative;
+}
+
+html>body .enter {
+	top: -20px;
+	width: 27px;	
+}
+
+.message {
+	height: 60px;
+	top: 0;
+	width: 225px;
+	border: 1px solid #72AAFF;	
+}
+
+html>body .message {
+	width: 226px;
+}
+
+.enter:focus {
+	outline:none;
+}
+
+.chatBor {
+	border: 3px solid #FFCC66;	
+	padding: 8px;
+}
+
+.status {
+	background:#ED0000;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+	margin:0;	
+	position:absolute;	
+	padding: 2px;	
+	top:0;
+	right:0;
+}
+
+
+.status1 {
+	background:#ED0000;
+	color:#FFFFFF;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;		
+	margin:0;	
+	position:absolute;	
+	padding: 2px;	
+	top:0;
+	right:0;
+	visibility: hidden;
+}
+
+.copyright {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#CBCBCB;
+	position: absolute;
+	bottom: 0;
+	right: 0;	
+}
+
+.copyright span {
+	cursor: pointer;	
+}
+
+html>body .copyright {	
+	position: fixed;
+}
+
+.chatBoardHead {
+	background:#FFAA55;	
+	background-image: url(../images/consoleHead_a.gif);
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 1px 0 2px 3px;	
+	height: 21px;
+}
+
+#chatBoardHead {	
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	padding: 1px 0 2px 3px;	
+	height: 21px;
+}
+
+#chatBoardHead img {
+	float:right;
+	position:relative;
+	cursor: pointer;	
+}
+
+.chatBoardHead img {
+	float:right;
+	position:relative;
+	cursor: pointer;	
+}
+
+#chatBordHead {	
+	width: 1px;		
+}
+
+#chatBordHead img{
+	float:none;
+	padding-right: 5px;
+	cursor: default;
+}
+
+#systemMessagesPane .innerPane {
+	vertical-align:middle;
+}
+
+.chatTable {
+	border: 3px solid #72AAFF;
+	border-top-color: #0066FF;
+	width: 275px;	
+	background: #FFFFFF;
+	float:left;
+	margin: 5px;
+}
+
+
+.chatControls {
+	margin: 0 auto;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	width: 265px;
+}
+
+.options {
+	font-size: 12px;
+	font-weight: bold;	
+	position: absolute;
+	top: 2px;
+	right: 5px;	
+	color:#666666;
+	height: 25px;
+}
+
+.options span {
+	cursor: pointer;
+}
+
+.options span:hover {
+	color:#000000;
+}
+
+.options .images {
+	margin-right: 20px;
+}
+
+.options .images img{
+	margin: 0 0 -5px 10px;
+	top: 2px;
+	cursor: pointer;
+}
+
+#logPanel, #infoPane, #transLogPanel{
+	display: none;
+	width: 350px;	
+	border: 3px solid #72AAFF;
+	border-top-color: #0066FF;
+	background: #FFFFFF;	
+	position: relative;	
+	margin: 5px;	
+}
+
+.innerPane {
+	margin: 5px;
+	border: 1px solid #72AAFF;	
+	padding: 5px;
+	font-size:10px;	
+}
+
+#logPanel .innerPane {
+	height: 100px;
+	overflow: auto;
+}
+
+#leftBottom {
+	right: 0;
+	position:absolute;
+	bottom: 20px;	
+}
+
+#systemMessagesPane {
+	position: absolute;
+	left: 2px;
+	bottom: 2px;
+	width: 200px;
+	display: none;
+}
+
+.uploadTable {
+	width: 330px;
+	border: 3px solid #FFAA55;	
+	background: #FFFFFF;	
+	position: absolute;	
+}
+
+
+.uploadTable iframe {
+	margin: 5px;
+	border: 1px solid #72AAFF;	
+	font-size:10px;
+	width: 315px;
+}
+
+#consoleArea {
+	display: block;
+	width: 100%;	
+}
+
+#logo {
+	background:url(../images/logo.gif) no-repeat;
+	width: 205px;
+	height: 67px;
+	position:static;
+	top: 0;
+	left: 0;	
+}

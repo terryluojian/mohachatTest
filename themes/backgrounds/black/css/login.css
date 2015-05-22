@@ -1,0 +1,23 @@
+/* CSS Document */
+
+#logInBox, #chatHoursPanel {
+	background-color: #FFFAF9;
+	border: 1px solid #FFAA55;
+}
+
+.input {	
+	border: 1px solid #FFAA55;
+}
+
+.button {
+	background-color: #FFDD77;
+	border: 1px solid #FFAA55;
+}
+
+.copyright {
+	color:#CBCBCB;	
+}
+
+.err {
+	color: #F70000;
+}

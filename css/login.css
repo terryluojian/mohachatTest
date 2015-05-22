@@ -1,0 +1,80 @@
+/* CSS Document */
+
+#logInBox, #chatHoursPanel {
+	background-color: #FFFAF9;
+	border: 1px solid #FFAA55;
+	margin: 0 auto;
+	width: 210px;
+	padding: 0 10px 10px 10px;		
+}
+
+#chatHoursPanel {
+	float:right;
+}
+
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;	
+}
+
+h1 {
+	font-size: 14px;
+}
+
+label {
+	font-size: 12px;	
+	display: block;	
+}
+
+.input {
+	font-size: 11px;
+	height: 15px;
+	border: 1px solid #FFAA55;
+	margin: 2px 0 2px 0;
+	width: 100px;
+}
+
+.button {
+	background-color: #FFDD77;
+	border: 1px solid #FFAA55;
+}
+
+.buttonlbl {
+	text-align: right;
+}
+
+.otherOpt {
+	margin-top: 10px;
+}
+
+.otherOpt a {
+	padding-right: 5px;
+}
+
+.copyright {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#CBCBCB;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.err {
+	font-weight: bold;
+	color: #F70000;
+}
+
+#progressx {
+	margin: 0 auto;
+	font-size: 12px;
+	display:none;
+	width: 50px;
+	text-align:center;
+}
+
+.warning {
+	padding-left: 18px;
+	padding-top: 1em;
+	background:url(../images/warning.gif) no-repeat left bottom;
+}

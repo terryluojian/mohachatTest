@@ -1,0 +1,19 @@
+/* CSS Document */
+
+.userTable {
+	border: 3px solid #BCBCBC;
+	border-top-color: #000000;
+	background: #FFFFFF;
+}
+
+.userDet:hover {
+	background: #EEEEEE;
+}
+
+.userOptionPaneName {
+	background-color: #EEEEEE;
+}
+
+#userOptionPane {	
+	border: 1px solid #BCBCBC;
+}

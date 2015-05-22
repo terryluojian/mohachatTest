@@ -1,0 +1,16 @@
+/* CSS Document */
+#mContainer {
+	border:1px solid #000000;	
+}
+
+#gradient {
+	background-color: #BCBCBC;
+}
+
+#mask {
+	background-color:#FFFFFF;
+}
+
+#progressIndicator {
+	color: #000000;	
+}

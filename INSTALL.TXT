@@ -1,0 +1,93 @@
+---
+Installing Plug ins for MOHA Chat
+---
+
+Extract the contents of the plug in release archive into
+the plugins folder of MOHA Chat.
+
+e.g.
+	<root of MOHA Chat Installation>/plugins/
+
+Then refresh the chat page. New plug ins will be avaialable as soon as they
+are loaded.
+
+Hope you will find the plug ins interesting and useful.
+
+---
+Installing MOHA Chat
+---
+
+Pre-requisities
+---------------
+
+Required software:
+* Web server with PHP 5.x or higher.
+* A MySQL server, 4.1.0 or higher.
+
+********************** WARNING **************************
+
+REMEMBER: ALWAYS BACK UP YOUR DATABASE BEFORE ATTEMPTING
+TO INSTALL OR UPGRADE!!!
+
+********************** WARNING **************************
+
+---
+Web Installer
+---
+
+If you have extracted the source into your document root.
+Direct your browser to <root of MOHA Chat Installation>/installer/ and follow
+the simple instructions.
+
+Post installation
+-----------------
+
+Please remember to give write access to the cache folder
+<root of MOHA Chat Installation>/cache for the web server user, or some of the
+plug-ins will not work (Plug-ins are unable to cache content they retrieved from
+external servers).
+
+Try this command from inside MOHA Chat root.
+
+chmod 777 cache/
+
+---
+Manual installation
+---
+
+It is recommended that you use the Web Installer.
+
+
+Creating Database tables
+------------------------
+
+Run the queries in <MOHA Chat Source>/dist/dbScript.sql on the
+database you wish to create the tables required to run
+MOHA Chat.
+
+
+Configuring MOHA Chat
+---------------------
+
+Rename <MOHA Chat Source>/config/configuration.php-dist to
+<MOHA Chat Source>/config/configuration.php
+
+Now set the parameters in <MOHA Chat Source>/config/configuration.php
+
+
+Congradualations!
+You have MOHA Chat Installed on your server/system
+
+With your web browser go to the root of MOHA Chat Installation
+
+Post installation
+-----------------
+
+Please remember to give write access to the cache folder
+<root of MOHA Chat Installation>/cache for the web server user, or some of the
+plug-ins will not work (Plug-ins are unable to cache content they retrieved from
+external servers).
+
+Try this command from inside MOHA Chat root.
+
+chmod 777 cache/

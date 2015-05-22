@@ -1,0 +1,18 @@
+/*
+Copyright (c) 2006, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version 0.12.1
+*/
+
+.panel {	
+	background-color:#FFF;
+	border: 1px solid #000000;	
+}
+
+.panel .hd {
+	background-color: #BCBCBC;		
+	color:#FFFFFF;	
+	border: 1px solid #BCBCBC;
+	border-bottom:1px solid #000;	
+}

@@ -1,0 +1,22 @@
+/* CSS Document */
+
+.userTable {
+	border: 3px solid #72AAFF;
+	border-top-color: #0066FF;
+	width: 175px;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 25px;
+	right: 7px;
+	background: #FFFFFF;
+}
+
+.userDet {	
+	padding: 0px 2px 3px 2px;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.userDet img {
+	margin: 0px 7px 2px 5px;	
+}

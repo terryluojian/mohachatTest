@@ -1,0 +1,210 @@
+--
+MOHA Chat Change log
+--
+
+---
+Version 0.1.1 - 2008/08/31
+---
+
+List of Fixed Bugs
+-------------------
+
+	*  2085506 - Installer Database configuration fails
+
+---
+Version 0.1 - 2008/08/31
+---
+
+Since less and less bugs are reported, it is assumed that the product is stable.
+So MOHA Chat will advance in stability to stable.
+
+List of Fixed Bugs
+-------------------
+
+	*  2023239 - htacess is not writeable (installer)
+	*  1800036 - Installer error
+
+---
+Version 0.1rc1 - 2007/03/08
+---
+
+Since less and less bugs are reported, it is assumed that the product is stable.
+So MOHA Chat will advance in stability to rc(Release Candidate). If no bugs are
+reported in the next week a stable release will be made.
+
+List of Fixed Bugs
+-------------------
+
+	* 1676637 - None of the messages are received
+
+---
+Version 0.1b10 - 2007/03/06
+---
+
+PostgreSQL support was introduced. Might come in handy if ur chat service
+becomes popular and you have lot of traffic.
+
+List of Fixed Bugs
+-------------------
+	* 1665480 - In Firefox on linux
+	* 1668229 - HTTP Request XML API doesn't work
+
+List of new features
+--------------------
+	* Database abstraction layer introduced and in full force
+	* DBA is configurable via the configuration file
+	* Can support more databses than MySQL
+	* Supports PostgreSQL with installer
+
+---
+Version 0.1b9 - 2007/02/21
+---
+
+There were couple of complains that the weather plug-in doesn't function. The
+cause was CURL PHP extension. HTTP_Request PEAR package was a good replacement which will
+function in any PHP installation with access to outside world. So now dependancy
+on CURL for the PHP proxy is no more.
+
+List of Fixed Bugs
+-------------------
+	* 1656310 - Problem with MOHA Database configuration
+	* 1664504 - Files uploaded cannot be downloaded
+
+List of new features
+--------------------
+	* Uses HTTP_Request PEAR package instead of CURL for the plug-in php proxy
+
+---
+Version 0.1b8 - 2007/02/11
+---
+
+This release is mainly made to fix few security flaws and to keep uptodate
+with the prototype Javascript framework.
+
+There are few features introduced as well.
+
+List of Fixed Bugs
+-------------------
+	* 1655336 - Users don't have to Sign in to use the plug in API
+	* 1656914 - On Konqueror MOHA chat progress bar is stuck
+	* 1657400 - On IE Weather is never updated, stuck with the initial
+	  report
+
+List of new features
+--------------------
+	* Upgraded to Prototype 1.5.0 (Javascript framework)
+	* Force browsers not to cache where necessary(e.g. process.php)
+	* Removes cache older than one day from the cache folder on *nix systems.
+	  (Sorry Windows users)
+	* It is possible to insert a new line without posting the message
+	  (Ctr+Enter)
+
+---
+Version 0.1b7 - 2007/02/06
+---
+
+As suggested by Travis [rennemannt _at_ users _dot_ sourceforge _dot_ net]
+password security model was moved out of the Users Class. Use $pwAlgo variable
+in the config/configuration.php to change the password hashing algorithm.
+Hope extensibility improved with this introduction.
+
+Plug-in architecture was further improved with the new requirements that came
+with the introduction of the Weather plug-in widget. Plug-ins can now make
+connections to the external world through a PHP proxy. Further this PHP proxy
+comes with caching to improve performance.
+
+List of new features
+--------------------
+	* Password security model was introduced, and it is not part of the Users
+	  class.
+	* PHP Proxy for brokering connections to extenal hosts with caching for
+	  plug-ins
+	* Weather plug-in (Weather information courtesy Yahoo! Weather)
+
+List of Fixed Bugs
+-------------------
+	* 1646079 - Some messages are not even sent to the server
+	* 1646454 - In IE buttons in user pane are dislocated
+	* 1650073 - In IE the connection indicator has a opaque background
+	* 1651346 - Messages are not archived
+
+---
+Version 0.1b6 - 2007/01/23
+---
+
+Plug in architecture was introduced with two things in mind; reduce the
+file size of main product and enable other developers and 3rd parties to
+contribute to the projec in the form of plug ins.
+
+Hope you would enjoy it.
+
+List of new features
+--------------------
+	* HTTP Request XML API - read more at http://mohachat.org/api/xml/
+	* Plug in architecture introduced
+	* Smilies, Wiki code, BB code and File sharing are now plugins
+
+List of Fixed Bugs
+-------------------
+	* 1639696 - When the login credentials are wrong bogus javascript alert
+
+---
+Version 0.1b5 - 2007/01/18
+---
+
+Same functionality as previous release when considering the product.
+Major bug fixes in the installer.
+
+List of Fixed Bugs
+------------------
+	* 1638586 - Configuration file not writable
+	* 1638589 - Database test never returns
+	* 1638820 - Cannot add buddies when the user table is not required
+
+---
+Version 0.1b4 - 2007/01/15
+---
+
+Same functionality as previous release when considering the product.
+Now a web installer is included, which can be used to install MOHA Chat.
+File arrangement improvements to smileys were made, now all smileys are
+only in themes.
+
+Bug fixes
+---------
+
+File attachement, there was a bug in the .htaccess file. The URL rewrite
+was invalid, therefor gave HTTP 404 error when someone tries to download
+an attachment. It was fixed with the introducation of the web installer.
+Now the .htaccess file is written at the time of installation.
+
+List of new features
+--------------------
+    * Web installer
+    * Smileys in one location
+
+
+---
+Version 0.1b3 - 2007/01/08
+---
+
+Initial public release. Includes most functionality. But needs some
+architectural improvements.
+
+List of features
+----------------
+    * All messages are encrypted on the wire even without https
+    * Chat system has the capability to archive all messages. (Could
+	  be disabled)
+    * Smileys are selectable and you don't need to remember the smiley
+	  codes
+    * Most file extensions have MIME icons when files are transferred
+    * Only buddies appear, not everyone
+    * Users can remove buddies from their buddy list
+    * When someone wants to add you as a buddy they need your
+	  permission and you can ban a user as well
+    * Choosable color themes
+    * Sound alerts (Mutable)
+    * Custom status messages
+    * URL and mail addresses are converted to hyper links
+    * BBCode can be used in chat messages

@@ -1,0 +1,91 @@
+/* CSS Document */
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+
+#overallProgress li {	
+	height: 20px;	
+	list-style-position: inside;
+	font-size: 12px;
+	margin: 0;
+}
+
+#overallProgress {
+	margin: 20px 0;
+	width: 150px;
+	padding: 5px;	
+	display: block;
+	background: #EEEEEE;
+	border: #CCCCCC solid 1px;
+	position:absolute;
+	top: 0;
+}
+
+#main {
+	margin-left: 200px;	
+	background: #EFEFEF;
+	border: #CCCCCC solid 1px;
+	padding: 0 20px 20px 20px;
+}
+
+#footer {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 9px;
+	color:#CBCBCB;
+	position: absolute;
+	bottom: 0;
+	right: 0;	
+}
+
+#logo {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.done {
+	list-style-image:url(../images/flag_green.gif);
+}
+
+.current {
+	list-style-image:url(../images/flag_orange.gif);
+}
+
+.pending {
+	list-style-image:url(../images/flag_white.gif);
+}
+
+.green {
+	font-weight: bold;
+	color: #009900;
+}
+
+.red {
+	font-weight: bold;
+	color: #CC3300;
+}
+
+.yellow {
+	font-weight: bold;
+	color: #FFCC00;
+}
+
+th {
+	text-align: left;
+}
+
+#processFrame {
+	/*display: none;*/
+}
+
+#loading {
+	background: url(../images/loading.gif) center no-repeat;
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 17px;
+	height: 17px;
+	margin: 2px 10px;
+	display: none;
+}

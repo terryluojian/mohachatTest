@@ -1,0 +1,93 @@
+/* CSS Document */
+.chatBoard {
+	background-color: #FEFEFE;
+	border: 1px solid #BCBCBC;
+}
+
+.imageControl img {
+	border: 1px #AAAAAA solid;
+}
+
+html>body .imageControl img {
+	background: #DDDDDD;
+}
+
+html>body .imageControl img:hover {
+	background: #FFFFFF;
+}
+
+.message {
+	border: 1px solid #BCBCBC;
+}
+
+.chatBor {
+	border: 3px solid #FFCC66;
+}
+
+.status {
+	background:#ED0000;
+	color:#FFFFFF;
+}
+
+.status1 {
+	background:#ED0000;
+	color:#FFFFFF;
+}
+
+.copyright {
+	color:#CBCBCB;
+}
+
+.chatBoardHead, .chatBoardHeadTween {
+	background:#BCBCBC;
+	background-image: url(../images/consoleHead_a.gif);
+}
+
+.chatBoardHeadTween {
+	background-image: url(../images/consoleHead_sp.gif);
+}
+
+.chatTable {
+	border: 3px solid #BCBCBC;
+	border-top-color: #000000;
+	background: #FFFFFF;
+}
+
+.options {
+	color:#666666;
+}
+
+.options span:hover {
+	color:#000000;
+}
+
+#logPanel, #infoPane, #transLogPanel{
+	border: 3px solid #BCBCBC;
+	border-top-color: #000000;
+	background: #FFFFFF;
+}
+
+.innerPane {
+	border: 1px solid #BCBCBC;
+}
+
+.uploadTable {
+	border: 3px solid #FFAA55;
+	background: #FFFFFF;
+}
+
+.uploadTable iframe {
+	border: 1px solid #BCBCBC;
+}
+
+#addBuddy {
+	background-color: #BCBCBC;
+}
+
+.dialogSurr {
+	background-color: #EEEEEE;
+}
+
+#smileyTablePane {
+	background: #EEEEEE;
+}

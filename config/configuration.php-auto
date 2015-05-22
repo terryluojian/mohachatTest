@@ -1,0 +1,47 @@
+<?php
+
+/**
+ * dbms of your choice
+ * Currently supports
+ * - MySQL and PostgreSQL
+ */
+$dbms = "#dbms";
+
+/**
+ * Database connection information
+ *
+ */
+$databaseHost 		= "#databaseHost";
+$databaseName 		= "#databaseName";
+$databaseUser 		= "#databaseUser";
+$databasePassword 	= "#databasePassword";
+
+/**
+ * User table information
+ *
+ * If you plan to use your own login page leave these blank
+ *
+ */
+$usersTable 		= "#usersTable";
+$usernameField 		= "#usernameField";
+$passwordField 		= "#passwordField";
+
+// Title
+$title 				= "#title";
+
+/**
+ * Links required to redirect users
+ *
+ */
+$registration		= #registration; // 0 = internal, 1 = external
+$forgotPasswordLink = "#forgotPasswordLink";
+$registerLink 		= "#registerLink";
+$loginLink			= "#loginLink";
+
+// All messages will be archived if set to true
+$archive 			= #archive;
+
+$tablePrefix 		= "#tablePrefix";
+
+// Passowrd Algorithm to use, even a custom function would do, but PWSecurity cryptPW should be aware
+$pwAlgo 			= "md5";

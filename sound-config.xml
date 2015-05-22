@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- SoundManager Flash configuration -->
+<!-- Sound IDs are referenced from JS -->
+
+<items baseHref="audio/" defaultVol="0">
+ <sound id="signedoff" href="Bye-Bye.mp3" />
+ <sound id="signedin" href="Door_Close.mp3" />
+ <sound id="start" href="Yeah.mp3" />
+ <sound id="notify" href="Bottle_open.mp3" />
+ <sound id="delivery" href="Floomp.mp3" />
+</items>
